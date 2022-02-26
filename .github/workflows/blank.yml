@@ -28,7 +28,7 @@ jobs:
 
       run: |
 
-        Invoke-WebRequest https://raw.githubusercontent.com/Clockiscool/Windows2022VPSmain/Node.js.lnk -OutFile Node.js.lnk
+        Invoke-WebRequest https://raw.githubusercontent.com/Clockiscool/Windows2022VPS/main/Node.js.lnk -OutFile Node.js.lnk
 
         Invoke-WebRequest https://raw.githubusercontent.com/Clockiscool/Windows2022VPS/main/VisualStudio2019.lnk -OutFile "Visual Studio 2019.lnk"
 
