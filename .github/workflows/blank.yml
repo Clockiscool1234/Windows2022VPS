@@ -24,14 +24,6 @@ jobs:
 
         Invoke-WebRequest https://telegra.ph/file/d6a11d84f0e308f56cf5a.png -OutFile wallpaper.bat
 
-    - name: Downloading Launcher.
-
-      run: |
-
-        Invoke-WebRequest https://raw.githubusercontent.com/Clockiscool/Windows2022VPS/main/Node.js.lnk -OutFile Node.js.lnk
-
-        Invoke-WebRequest https://raw.githubusercontent.com/Clockiscool/Windows2022VPS/main/VisualStudio2019.lnk -OutFile "Visual Studio 2019.lnk"
-
     - name: Extracting Ngrok File.
 
       run: Expand-Archive ngrok.zip
